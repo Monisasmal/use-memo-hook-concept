@@ -7,10 +7,25 @@ This project is designed to help developers understand React performance optimiz
 
 ----
 
+## 📖 About The Project
+
+As React applications grow, components may perform expensive calculations every time they re-render, even when the result hasn't changed. This can negatively impact performance.
+
+The useMemo Hook helps solve this problem by memoizing computed values and recalculating them only when their dependencies change.
 
 
+This project demonstrates:
 
+- What useMemo is
+- How memoization works
+- Optimizing expensive calculations
+- Preventing unnecessary computations
+- Improving rendering performance
+- Best practices for using useMemo
 
+Whether you're learning React Hooks or preparing for frontend interviews, this project provides practical examples to master performance optimization in React.
+
+----
 
 
 ## 🙋‍♀️ Author Manaswini Sasmal
