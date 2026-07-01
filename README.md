@@ -27,6 +27,20 @@ Whether you're learning React Hooks or preparing for frontend interviews, this p
 
 ----
 
+## 🚀 What is useMemo?
+
+The useMemo Hook caches the result of a calculation and only recomputes it when one of its dependencies changes.
+
+Instead of recalculating values on every render, React reuses the previously computed value.
+
+### Syntax
+
+const memoizedValue = useMemo(() => { 
+return expensiveCalculation(); 
+}, [dependencies]);
+
+---
+
 
 ## 🙋‍♀️ Author Manaswini Sasmal
 
