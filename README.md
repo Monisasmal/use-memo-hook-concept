@@ -1,3 +1,17 @@
+## ⚛️ React useMemo Hook
+A comprehensive React project demonstrating the useMemo Hook, explaining how memoization works, when to optimize expensive calculations, and how to improve application performance by preventing unnecessary re-computations.
+
+This project is designed to help developers understand React performance optimization techniques through practical, real-world examples.
+
+🌐 Live Demo 👉  [deployed URL here](https://use-layouteffect-hook-concept.vercel.app/)
+
+----
+
+
+
+
+
+
 
 ## 🙋‍♀️ Author Manaswini Sasmal
 
