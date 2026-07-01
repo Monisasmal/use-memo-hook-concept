@@ -36,10 +36,34 @@ Instead of recalculating values on every render, React reuses the previously com
 ### Syntax
 
 const memoizedValue = useMemo(() => { 
+
 return expensiveCalculation(); 
+
 }, [dependencies]);
 
 ---
+
+## ✨ Features
+
+Hook Demonstrations
+
+✔ Expensive Calculations
+
+✔ Number Processing
+
+✔ Filtering Large Lists
+
+✔ Sorting Data
+
+✔ Search Optimization
+
+✔ Derived State
+
+✔ Dependency Arrays
+
+✔ Memoized Values
+
+----
 
 
 ## 🙋‍♀️ Author Manaswini Sasmal
