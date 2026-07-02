@@ -100,6 +100,56 @@ React follows this process:
 
 ---
 
+## Example Usage
+
+Basic Example
+
+import { useMemo } from "react";
+
+function Example({ number }) {
+
+const square = useMemo(() => {
+
+console.log("Calculating...");
+
+return number * number;
+
+}, [number]);
+
+return ``<h2>{square}</h2>``;
+
+}
+
+Expensive Calculation
+
+const result = useMemo(() => {
+
+return expensiveCalculation(data);
+
+}, [data]);
+
+React recalculates only when data changes.
+
+---
+
+## 🎯 Why useMemo?
+
+The useMemo Hook helps developers:
+
+✅ Avoid Expensive Calculations
+
+✅ Improve Rendering Performance
+
+✅ Cache Computed Values
+
+✅ Optimize Large Data Processing
+
+✅ Reduce Unnecessary Computations
+
+✅ Build Faster React Applications
+
+----
+
 
 ## 🙋‍♀️ Author Manaswini Sasmal
 
