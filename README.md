@@ -151,6 +151,38 @@ The useMemo Hook helps developers:
 ----
 
 
+## 🚨 When NOT to Use useMemo
+
+Avoid using useMemo for:
+
+❌ Simple Calculations
+
+❌ Primitive Values
+
+❌ Small Components
+
+❌ Lightweight Operations
+
+❌ Premature Optimization
+
+Using useMemo everywhere can actually make your application harder to maintain and may not improve performance.
+
+----
+
+## 🎯 Real-World Use Cases
+
+- Filtering Large Lists
+- Sorting Tables
+- Search Functionality
+- Dashboard Analytics
+- Data Transformation
+- Product Catalogs
+- Financial Calculations
+- Chart Data Processing
+
+---
+
+
 ## 🙋‍♀️ Author Manaswini Sasmal
 
 📲 - 6370094643
